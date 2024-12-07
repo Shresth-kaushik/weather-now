@@ -1,2 +1,19 @@
-./node_modules
-./.env
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore node_modules folder
+/node_modules/
+
+# Ignore IDE/project files
+.idea/
+.vscode/
+
+# Allow a specific file
+!.env.example
+
+# Ignore all .env files except the example
+.env
+!.env.example
